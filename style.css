@@ -1,0 +1,237 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background: #d9faff;
+}
+header{
+    gap: 30px;
+    width: 220px;
+    background: #fdf3c0;
+    color: #193f56;
+    display: flex;
+    flex-direction: column;
+    padding:16px 0;
+    text-align:center;
+    position: fixed;
+    height: 100vh;
+    top: 0;
+}
+.beatles{
+    width: 150px;
+    height: 150px;
+    border-radius: 40%;
+    object-fit: cover;
+    border: 4px solid #193f56;}
+header h1{
+    margin-bottom: 8px;
+    color: #193f56;
+    font-size:40px;
+}
+nav ul{
+    list-style: none;
+    padding:0;
+}
+nav ul li{
+    display:block;
+    margin: 0 10px
+}
+nav ul li a{
+    color: #193f56;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+nav ul li a:hover{
+    color: orange;
+    cursor:pointer;
+}
+
+section{
+    padding:20px;
+    margin:16px;
+    margin-left:270px;
+    background: #0a3571e3;
+    width: 80%;
+    height: 20%;
+    border-color: #193f56;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+.fotocard{
+    margin-right: 30px;
+}
+.textoprojeto{
+    margin-left: 30px;
+}
+.container h2{
+    font-size: 32px;
+    color: #d9faff;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.tituloformacao{
+    margin-left: 550px;
+    font-size: 16px;
+    color: #d9faff;
+}
+.container-formacao{
+
+max-width: 1100px;
+    margin: 0 auto;
+}
+.container-contato{
+    max-width: 800px;
+    margin: 0 auto;
+    color: #d9faff;
+}
+.container-contato h2{
+    font-size: 32px;
+    color: #d9faff;
+}
+h2{
+    margin-bottom: 16px;
+}
+.sobre-mim{
+    display:flex;
+    align-items: cENTER;
+    gap:16px;
+    font-size:20px;
+    color: white;
+}
+.foto-perfil{
+    width: 450px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #333;
+}
+.foto-formacao{
+    margin-top:80px;
+    background-color: #d9faff;
+    width: 300px;
+    height: 300px;
+    border-radius: 30%;
+    object-fit: cover;
+    border: 4px solid #333;
+    align-items: center;
+}
+.foto-hobbie{
+    width: 180px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #333;
+}
+.cards{
+    display:flex;
+    gap:16px;
+}
+.card{
+    background: #d9faff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba (0, 0, 0, 1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card p{
+    font-size: 20px;
+    text-align:left
+}
+.cardformacao ul{
+    padding-left: 20px;
+    margin-bottom: 32px;       /* Mais espaço entre cada item da lista */
+    font-size: 20px;        /* Leve aumento no tamanho da fonte */
+    line-height: 1.6;          /* Espaçamento maior entre as linhas do mesmo texto */
+    color: #000;
+    background: #d9faff;
+    border-radius: 8px;
+    padding: 30px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba (0, 0, 0, 1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+
+}
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+.hobbies{
+    display:flex;
+    flex-direction:column;
+    gap: 16px
+}
+.foto-projeto{
+    margin-left: 30px;
+    width: 180px;
+    height: 150px;
+    border-radius: 10%;
+    object-fit: cover;
+    border: 2px solid #333;
+}
+.hobby{
+    display: flex;
+    align-items: center;
+    background: #d9faff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 14px;
+    transition: transform 0.3s ease, box-shadow 0.4s ease;
+}
+.hobby:hover{
+    transform: translatex(-20px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.6);
+}
+.hobby i{
+    font-size: 32px;
+    color: #3f4e58;
+}
+.hobby p{
+    color: black;
+    font-size: 24px;
+}
+form{
+    display: grid;
+    gap: 16px;
+}
+input, textarea, button{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+button{
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+button:hover{
+    background: linear-gradient(90deg,rgba(91, 122, 133, 1) 0%, rgba(153, 211, 224, 1) 28%, rgba(54, 161, 173, 1) 64%);
+    color: black;
+}
+footer{
+    margin-top: 20px;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 16px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
